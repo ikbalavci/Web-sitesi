@@ -1,0 +1,151 @@
+
+    .body {
+        background-color: #181a1b;
+      }
+  
+      .menü {
+        background-color: #142a9a;
+        box-shadow: 2px 2px #161819;
+        border-radius: 13px;
+        position: fixed;
+        width: 260px;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        height: 600px;
+      }
+  
+      .menüİmg {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        align-self: center;
+      }
+  
+      .menüLink {
+        color: white;
+        text-decoration: none;
+      }
+  
+      .menüLink:hover {
+        color: white;
+        font-size: large;
+        transition: 150ms;
+        text-decoration: none;
+      }
+  
+      .menüSosyalMedya {
+        height: 45px;
+        display: flex;
+        align-items: flex-end;
+      }
+  
+      .menüSosyalMedyaLink {
+        color: red;
+      }
+  
+      .menüSosyalMedyaLink:hover {
+        color: black;
+        transition: 600ms;
+      }
+  
+     .a{
+       display: none;
+     }
+  
+      .Ana1 {
+        background-image: url(resim/2.jpg);
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        align-items: center;
+  
+        height: 600px;
+        border-radius: 13px;
+        background-position: right;
+      }
+  
+      .Ana1:hover {
+        opacity: 0.6;
+        transition: 600ms;
+      }
+  
+      .hakkımdaEtiket {
+        margin-left: 33px;
+        color: white;
+        margin-top: 15%;
+        font-family: "Dancing Script", cursive;
+      }
+  
+      .divHakkımda {
+        margin-top: 2;
+        display: flex;
+        color: white;
+        font-family: "Roboto", sans-serif;
+      }
+  
+      .hakkımdaİmg {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        margin-top: 2;
+        margin-left: 10px;
+      }
+  
+      .hakkımdaBilgiler1 {
+        margin-left: 15px;
+      }
+  
+      .hobilerEtiket {
+        margin-left: 33px;
+        color: white;
+        margin-top: 15%;
+        font-family: "Dancing Script", cursive;
+      }
+  
+      .hobilerİmg {
+        height: 200px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 7px;
+      }
+  
+      .hobilerCard {
+        font-family: "Roboto", sans-serif;
+        color: rgb(230, 230, 230);
+        background-color: #a40f57;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 50px;
+      }
+  
+      .hobilerCard:hover {
+        background-color: black;
+        transition: 600ms;
+      }
+  
+      @media screen and (max-width: 768px) {
+        .hakkımdaBilgiler2 {
+          flex-direction: column;
+        }
+  
+        .divHakkımda {
+          flex-direction: column;
+        }
+  
+        .hakkımdaİmg {
+          align-self: center;
+          margin-bottom: 10px;
+        }
+      }
+  
+      @media screen and (max-width: 1000px) {
+        .menü {
+          display: none;
+          
+        }
+  
+        .a{
+         
+          display: block;
+          margin-bottom: 20px;
+        }
+      }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+
+   
+    <style>
+        
+        .arkaplan
+        {
+background-color: antiquewhite;
+        }
+        .üstyazı{
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(185, 53, 106);
+        }
+        .loginKenarlık{
+            
+            border-radius: 5%;
+            background-color: bisque;
+            border-width:3px;
+            border-color:rgb(0, 0, 0);
+            border-style:solid;
+            width:20%;
+            border-style: dashed;
+            
+        }
+    </style>
+</head>
+<body class="arkaplan">
+    <div class="row üstyazı">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">Kahramanmaraş Tanıtım Sitesi</div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+            <figure>
+                <img src="resim/login.jpg" class="img-thumbnail img-fluid" width="800px" height="532px">
+                <figcaption>Kahramanmaraş Çarşı</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-3">
+        </div>   
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-4 loginKenarlık">
+                <form action="login.php" method="post">
+                    <i class="fas fa-user"></i>Kullanıcı adı:<br>
+                    <input type="text" name="kullaniciAdi" required><br>
+                    <i class="fas fa-lock"></i>Şifre:<br>
+                    <input type="password" name="sifre" required><br><br>
+                    <input type="submit" value="GİRİŞ YAP"><br><br>
+                </form>
+            </div>
+            <div class="col-md-2">   
+            </div>
+                    
+        </div>
+    </div>    
+</body>
+</html>
